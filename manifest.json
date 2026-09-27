@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Realm Marktplatz",
+    "description": "Spieler-Marktplatz: Items einstellen, Preis in 'money' festlegen, andere kaufen, Orders (Kaufgesuche) erstellen. Keine Beta-APIs.",
+    "uuid": "7c68dea8-61fc-488a-b302-90d30a0d77c2",
+    "version": [1, 21, 15],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "34ad10f1-8c5d-4d90-9752-13ea8bbcb51c",
+      "version": [1, 21, 15],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.7.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}
